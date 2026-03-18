@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Odisha Space Applications Centre">
+	<meta name="keywords" content="Odisha Space Applications Centre" /> 
+	<meta name="author" content="orsac"> 
+    <title>Odisha Space Applications Centre</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link  href="css/ticker.css" rel="stylesheet" media="screen">
+    <link  href="css/feature.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="menu/burgermenu.css">
+    <link rel="stylesheet" href="menu/themes/default.css">
+    
+    <!-- Favicon -->    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="boxed_wrapper">
+
+        <div class="preloader"></div>
+		<a id="button"></a>
+        <!-- Start Top Bar style3 -->
+        <section class="top-bar-style2">
+            <div class="container clearfix">
+                <div class="topbar-style3-content">
+                    <div class="topbar-style3-left">
+                        <ul class="clearfix">
+                    <li><a href="#"> Skip to main content <i class="fa fa-angle-double-right"></i></a></li> 
+                    <li><a href="#"><i class="fa fa-volume-up"></i> Screen reader Access</a></li>
+                    <li id="fon-size">
+                        <a href="#" class="small" id="smallFont" onClick="changemysize('-',this);">&nbsp;&nbsp;A-</a>
+                        <a href="#" class="medium" id="mediumFont" onClick="changemysize('0',this);">&nbsp;&nbsp;A</a>
+                        <a href="#" class="large" id="largeFont" onClick="changemysize('+',this);">&nbsp;&nbsp;A+</a>
+                    </li>
+                    <li id="theme-style">
+                         <a href="#" class="styleswitch theme4" rel="styles">T</a>
+                         <a href="#" class="styleswitch theme1" rel="styles1">T</a>
+                         <a href="#" class="styleswitch theme2" rel="styles2">T</a>
+                         <a href="#" class="styleswitch theme3" rel="styles3">T</a>
+                    </li>
+                     <li id="theme-style">
+                        <div class="outer-search-box">
+                                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                                            <ul class="search-box">
+                                                <li>
+                                                    <form method="post" action="#">
+                                                        <div class="form-group">
+                                                            <input type="search" name="search" placeholder="Search Here" required="">
+                                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </li>
+                                       </ul>
+                        
+                    </div>
+                    <div class="topbar-style3-right">
+                        <ul class="clearfix">
+                            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="#"><i class="fa fa-envelope-o"></i> Web Mail</a></li>
+                            <li><a href="#"><i class="fa fa-sitemap"></i> Site Map</a></li>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></a></li>
+                            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <div class="burgermenu-sticky-head">
+    					<a id="burgermenu-toggle" class="right" href="#menu-example"><i class="fa fa-bars"></i> Menu</a>
+  						</div>
+  
+                        <div class="language-switcher">
+                            <div id="polyglotLanguageSwitcher">
+                                <form action="#">
+                                    <select id="polyglot-language-options">
+                                    <option id="en" value="en" selected>English</option>
+                                    <option id="od" value="od">ଓଡ଼ିଆ</option>
+                                </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav id="menu-example" class="burgermenu-right">
+                                <ul class="burgermenu-panel">
+                                  <li class="active"><a href="#">Home</a></li>
+                                  <li class="dropdown">
+                                    <a href="#">About Us </a>
+                                    <ul class="dropdown-children">
+                                    <li class="has-children">
+                                        <a href="#">At a Glance</a>
+                                        <ul class="is-children">
+                                          <li><a href="#" class="back">Back</a></li>
+                                          <li><a href="#">State Nodal Agency Centre</a></li>
+                                        </ul><!-- .is-children -->
+                                      </li><!-- .has-children -->
+                                    <li><a href="#">Achievements</a></li>
+                                     <li class="has-children">
+                                        <a href="#">Activities</a>
+                                        <ul class="is-children">
+                                          <li><a href="#" class="back">Back</a></li>
+                                          <li><a href="#">Completed Projects</a></li>
+                                          <li><a href="#">Continue Projects</a></li>
+                                          <li><a href="#">Award Received</a></li>
+                                        </ul><!-- .is-children -->
+                                      </li><!-- .has-children -->
+                                     <li><a href="#">Former Chief Executives</a></li>
+                                     <li><a href="#">Organogram</a></li>
+                                     <li><a href="#">RTI</a></li>
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li class="dropdown">
+                                    <a href="#">Administration</a>
+                                    <ul class="dropdown-children">
+                                    <li><a href="#">Governing Body</a></li>
+                                    <li><a href="#">CE'S Office</a></li>
+                                    <li><a href="#">RS Division</a></li>
+                                    <li><a href="#">Geoinformatics Division</a></li>
+                                    <li><a href="#">Geomatics Division</a></li>
+                                    <li><a href="#">Image Processing/Photography Division</a></li>
+                                    <li><a href="#">Geo-ICT & IT Division</a></li>
+                                    <li><a href="#">Admin/Acct. Division </a></li>
+                                     <li class="has-children">
+                                        <a href="#">SATCOM Division</a>
+                                        <ul class="is-children">
+                                          <li><a href="#" class="back">Back</a></li>
+                                          <li><a href="#">Granusat </a></li>
+                                          <li><a href="#">Edusat </a></li>
+                                          <li><a href="#">Video/Program Production</a></li>
+                                        </ul><!-- .is-children -->
+                                      </li><!-- .has-children -->
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li class="dropdown">
+                                    <a href="#">Empanelment</a>
+                                    <ul class="dropdown-children">
+                                    <li><a href="#">Vendors Empanelled under DGPS/ETS Survey</a></li>
+                                    <li><a href="#">Guidelines For Survey</a></li>
+                                    <li><a href="#">Rate of Survey and Processing Fee for Authentication</a></li>
+                                     <li class="has-children">
+                                        <a href="#">Vendors Empanelled</a>
+                                        <ul class="is-children">
+                                          <li><a href="#" class="back">Back</a></li>
+                                          <li><a href="#">DGPS </a></li>
+                                          <li><a href="#">UAV/Doore </a></li>
+                                          <li><a href="#">Photography/Image Processing</a></li>
+                                        </ul><!-- .is-children -->
+                                      </li><!-- .has-children -->
+                                    
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li class="dropdown">
+                                    <a href="#">Projects</a>
+                                    <ul class="dropdown-children">
+                                     <li><a href="#">Completed</a></li>
+                                     <li><a href="#">On Going</a></li>
+                                     <li><a href="#">Projects in Pipeline</a></li>
+                                      <!-- .has-children -->
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li class="dropdown">
+                                    <a href="#">Infrastructure</a>
+                                    <ul class="dropdown-children">
+                                     <li><a href="#">RS & GIS Lab</a></li>
+                         		     <li><a href="#">Space Information Centre</a></li>
+                                     <li><a href="#">Survey</a></li>
+                         		     <li><a href="#">Studio</a></li>
+                                     <li><a href="#">Campus</a></li>
+                         		     <li><a href="#">Remote Sensing Lab </a></li>
+                                     <li><a href="#">Geo-ICT Lab</a></li>
+                         		     <li><a href="#">Satcom (EDUSAT)Studio</a></li>
+                                     <li><a href="#">Survey Lab</a></li>
+                                     <li><a href="#">Library</a></li>
+                                     <li><a href="#">Data Library</a></li>
+                                      <!-- .has-children -->
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li class="dropdown">
+                                    <a href="#">Services</a>
+                                    <ul class="dropdown-children">
+                                         <li class="menu-item"><a href="#">Remote Sensing Service</a></li>
+                                         <li class="menu-item"><a href="#">Geospatial Database Creation</a></li>
+                                         <li class="menu-item"><a href="#">WebGIS</a></li>
+                                         <li class="menu-item"><a href="#">Training & Workshops</a></li>
+                                         <li class="menu-item"><a href="#">Transmission Programmes</a></li>
+                                         <li class="menu-item"><a href="#">Survey</a></li>
+                                         <li class="menu-item"><a href="#">DGPS & ETS Service</a></li>
+                                         <li class="menu-item"><a href="#">UAV / UAS Service</a></li>
+                                         <li class="menu-item"><a href="#">HRSI Photogrammetry Image Service</a></li>
+                                         <li class="menu-item"><a href="#">Map/Data Sale</a></li>
+                                         <li class="menu-item"><a href="#">WMS/WFS Service</a></li>
+                                         <li class="menu-item"><a href="#">Mo Sarakar</a></li>
+                                         <li class="menu-item"><a href="#">5T Service</a></li>
+                                      <!-- .has-children -->
+                                    </ul>
+                                  </li><!-- .dropdown -->
+                                  <li><a href="#">Our User</a></li>
+                                  <li><a href="#">ORSAC Presentation</a></li>
+                                  <li><a href="#">Tender</a></li>
+                                  <li><a href="#">Contact Us</a></li>
+                                </ul>
+                                
+                              </nav>
+        <!--End Top Bar style3 -->
+
+        <!--Start Header style3 Area-->
+        <section class="header-style3-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="header-style3-content">
+                            <div class="logo-box-style3 float-left">
+                                <a href="index.html">
+                                    <img src="../images/orsac-logo-odia.png" alt="Orssac Logo">
+                                </a>
+                            </div>
+                             <ul class="header-contact-info style2 float-left">
+                                <li>
+                                    <div class="single-item">
+                                     <img src="../images/resources/logo-odisha.png" alt="odisha">
+                                    </div>
+                                </li>
+                                  <li>
+                                    <div class="single-item">
+                                    <!-- <img src="images/resources/cmodisha.png" alt="Cm"> -->
+                                    </div>
+                                </li>
+                            </ul>
+                          
+                            <!--<div class="header-call-button float-right">
+                                <div class="inner">
+                                   <img src="images/resources/cmodisha.png" alt="Cm">
+                                   
+                                </div>
+                            </div>-->
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Header style3 Area-->
+        <!--Start breadcrumb area-->
+        <section class="breadcrumb-area style2" style="background-image: url(../images/resources/breadcrumb-bg-2.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="inner-content-box clearfix">
+                            <div class="title-s2 text-center">
+                                <h2>At a Glance</h2>
+                            </div>
+              <div class="breadcrumb-menu float-right">
+                                <ul class="clearfix">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li class="active">At a Glance</li>
+                                </ul>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End breadcrumb area-->
+        
+        <section class="about-area">
+            <div class="container about-style3-content">
+                <div class="row">
+                      <div class="col-xl-3 col-lg-3">
+                      
+                       <div id="slide-out">
+   <div id="mobile-menu" class="nav-mobile">
+      <div class="main-menu">
+
+<ul>
+<li class="menu-item-has-children has-children"><a href="#">At a Glance</a>
+<ul class="sub-menu">
+    <li><a href="#tie-foods/">State Nodal Agency Centre</a></li>
+</ul>
+</li>
+<li><a href="#">Achievements</a></li>
+<li><a href="#">Tech</a></li>
+<li class="menu-item-has-children has-children"><a href="#">Activities</a>
+<ul class="sub-menu">
+   <li><a href="#">Completed Projects</a></li>
+   <li><a href="#">Continue Projects</a></li>
+   <li><a href="#">Award Received</a></li>
+</ul>
+</li>
+<li><a href="#">Former Chief Executives</a></li>
+<li><a href="#">Organogram</a></li>
+<li><a href="#">RTI</a></li>
+</ul>
+
+      </div> 
+   </div> 
+</div>                    
+                    </div>
+                      <div class="col-xl-6 col-lg-6">
+                      <div class="col-xl-12">
+                        <div class="sec-title text-center">
+                            <p class="text-left">At a Glance</p>
+                        </div>
+                    </div>
+                        <div class="about-text">
+                            <div class="inner-content">
+                                <div class="text">
+                                    <p align="justify">Odisha Space Applications Centre (ORSAC), the apex body of the State of Odisha for space technology applications, was established in the year 1984. The Centre is located at Bhubaneswar in its own building at Chandrasekharpur. The Centre is equipped with sophisticated GIS & Computer laboratories with latest GIS and Image softwares. It has a team of well-experienced multidisciplinary application scientists to undertake Remote Sensing, GIS & GPS based projects. In the field of communication technology application, the centre runs GRAMSAT & EDUSAT programme. GRAMSAT includes interactive training programme, production & telecast of developmental programmes in fiction based drama format, documentary format as well as news magazine format. EDUSAT includes telecast of live class room programmes and enrichment programmes for the benefit of High School students.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-xl-3 col-lg-3">
+                       <div class="about-image-box">
+                            <div class="inner-box">
+                                <img src="images/resources/about-image-inner.jpg" alt="Awesome Image">
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="row">
+                      <div class="col-xl-12 col-lg-12">
+                        <div class="about-text">
+                            <div class="inner-content">
+                                <div class="text">
+                                    <p align="justify"><strong>The objectives are :</strong></p>
+                                    <ul>
+                                    <li class="bigarrow">Establishment of up-to-date/near real-time satellite database and topographical / cadastral map library.</li>
+                                    <li class="bigarrow">Demonstration and operationalisation of space technology application in the state.</li>
+                                    <li class="bigarrow">Application of Remote Sensing, GIS, GPS and Communication Technology for several development planning activities.</li>
+                                    <li class="bigarrow">Creation of centralised facilities for interpretation and analysis of remote sensing data for developmental planning activities using Geographic Information System (GIS).</li>
+                                    <li class="bigarrow">Demonstration of multi-disciplinary application projects for mapping, monitoring and management of natural resources and environment.</li>
+                                    <li class="bigarrow">Participation in various projects defined under National Natural Resources Management system (NNRMS) programme of Indian Space Research Organisation (ISRO).</li>
+                                    <li class="bigarrow">To provide up-to-date accurate and geo-referenced databases to resource managers, planners and decision makers for natural resource management, environmental monitoring, Infrastructure development and other development planning activities.</li>
+                                    <li class="bigarrow">Connecting people through GRAMSAT Project.</li>
+                                    <li class="bigarrow">Dissemination of Education and Telemedicine facilities through GRAMSAT/ EDUSAT Network.</li>
+                                    <li class="bigarrow">To act as a centre of excellence for repository of State's natural resources, socio-economic, demographic and development data.</li>
+                                    <li class="bigarrow">Organisation of Orientation Workshops on Multi-disciplinary Application Areas using Remote Sensing and GIS for different User Departments/Agencies at State, district level.</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+        </section>
+
+        <!--Start footer area Style2-->
+        <footer class="footer-area">
+            <div class="footer-shape-bg wow slideInRight" data-wow-delay="300ms" data-wow-duration="2500ms"></div>
+            <div class="container">
+                <div class="row">
+                    <!--Start single footer widget-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-footer-widget marbtm50">
+                            <div class="contact-info-box">
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="../images/icon/orsac-logo.png" alt="Awesome Logo">
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <h6><i class="fa fa-map-marker"></i> Address</h6>
+                                        <p><strong>ODISHA SPACE APPLICATIONS CENTRE (ORSAC)</strong><br>
+                                        (Department of Science & Technology, Government of Odisha)</p>
+                                        <p>Plot no. 45/48 (Part), Jayadev vihar, Near Gopabandhu Academy of Administration Unit-16, Bhubaneswar- 751 023, Odisha</p>
+                                    </li>
+                                    <li>
+                                        <h6><i class="fa fa-phone"></i> Phone</h6>
+                                        <p>(0674)2303625</p>
+                                    </li>
+                                    <!--<li>
+                                        <h6><i class="fa fa-fax"></i> Fax</h6>
+                                        <p>(0674)2300681</p>
+                                    </li>-->
+                                    <li>
+                                        <h6><i class="fa fa-envelope-o"></i> Email</h6>
+                                        <p><a href="mailto:orsac.od@od.gov.in"  style="color:#FFFFFF;">orsac.od@od.gov.in</a>
+/<a href="mailto:orsac@odisha.gov.in"  style="color:#FFFFFF;">orsac@odisha.gov.in</a></p>
+                                    </li>
+                                    <li>
+                                        <h6><i class="fa fa-globe"></i> Website</h6>
+                                        <p><a href="https://orsac.odisha.gov.in/"  style="color:#FFFFFF;">orsac.odisha.gov.in</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                    <!--Start single footer widget-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-footer-widget marbtm50">
+                            <div class="title">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <div class="services-links">
+                                <ul>
+                                <li><a href="#">RTI</a></li>
+                                <li><a href="#">KYL Privacy Policy</a></li>
+                                <li><a href="#">NFSD Workshop</a></li>
+                                <li><a href="#">Human Resources</a></li>
+                                <li><a href="#">Annual Reports</a></li>
+                                <li><a href="#">Photo Gallery</a></li>
+                                <li><a href="#">Video Gallery</a></li>
+                                <li><a href="#">Map Gallery</a></li>
+                                <li><a href="#">News & Events</a></li>
+                                <li><a href="#">Odisha State Data Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                    <!--Start single footer widget-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-footer-widget marbtm50">
+                            <div class="title">
+                                <h3>Explore</h3>
+                            </div>
+                            <div class="services-links">
+                                <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Web Mail</a></li>
+                                <li><a href="#">Site Map</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">News&Events</a></li>
+                                <li><a href="#">Our users</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Tender</a></li>
+                                <li><a href="#">Workshop</a></li>
+                                <li><a href="#">Training</a></li>
+                               
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                    <!--Start single footer widget-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="single-footer-widget marbtm50">
+                        
+                            <div class="appointment">
+                                <div align="center"><a class="twitter-timeline" data-width="600" data-dnt="true"  data-tweet-limit="4" href="https://twitter.com/ORSACBBSR?ref_src=twsrc%5Etfw">Tweets by ORSACBBSR</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                </div>
+            </div>
+        </footer>
+        <!--End footer area Style2-->
+
+        <!--Start footer bottom area-->
+        <section class="footer-bottom-area style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="footer-bottom-content flex-box-two">
+                            <div class="copyright-text">
+                                 <p>Copyright © 2021 -ORSAC, All Rights Reserved | <span style="float:right;">  Visitors:75573 | Last update: 2021-10-29 12:21:20 </span></p>
+                            </div>
+                            <div class="footer-social-links clr-white float-right">
+                                <span>We are On:</span>
+                                <ul class="sociallinks-style-one">
+                                    <li class="wow slideInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="wow slideInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></a>
+                                    </li>
+                                    <li class="wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    </li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End footer bottom area-->
+
+    </div>
+    <div class="sticky-social">
+    <ul class="social">
+    <li class="fb"><a href="#" class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li class="twitter"><a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></a></li>
+    <li class="insta"><a href="#" class="text-white"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+    <div class="scroll-to-top-style2 scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <script src="assets/timepicker/timePicker.js"></script>
+    <!--Revolution Slider-->
+    
+
+    <!-- thm custom script -->
+    <script src="js/custom.js"></script>
+    <script src="js/ticker.js"></script>
+    <script src="js/lightboxgallery.js"></script>
+    <script src="menu/burgermenu.js"></script>
+<script>
+     $('.tab-menu li a').on('click', function(){
+		   	var target = $(this).attr('data-rel');
+			$('.tab-menu li a').removeClass('active');
+		   	$(this).addClass('active');
+		   	$("#"+target).fadeIn('slow').siblings(".tab-box").hide();
+		   	return false;
+  });
+   
+   </script>
+ <script type="text/javascript">
+  $(function() {
+    $('#menu-example').burgermenu({
+      position: 'right'
+    });
+  });
+  </script>
+   <script type="text/javascript">
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+  </script>
+  <script>
+  $(document).ready(function(){
+
+  $(".sidebar-menu > li.have-children a").on("click", function(i){
+      i.preventDefault();
+    if( ! $(this).parent().hasClass("active") ){
+      $(".sidebar-menu li ul").slideUp();
+      $(this).next().slideToggle();
+      $(".sidebar-menu li").removeClass("active");
+      $(this).parent().addClass("active");
+    }
+    else{
+      $(this).next().slideToggle();
+      $(".sidebar-menu li").removeClass("active");
+        }
+    });
+});
+  
+  </script>
+  <script>
+  //https://pt.stackoverflow.com/questions/270800/converter-um-cod%c3%adgo-em-jquery-para-javascript-puro/270831#270831
+
+var mobileItems = document.querySelectorAll('#slide-out .nav-mobile .main-menu li.menu-item-has-children');
+[].forEach.call(mobileItems, function(el){
+   var i = document.createElement('i');
+   i.setAttribute('class','mobile-arrows fa fa-chevron-down');
+   el.appendChild(i);
+});
+
+var li_i = document.querySelectorAll('li.menu-item-has-children i.mobile-arrows');
+[].forEach.call(li_i, function(el){
+   el.addEventListener('click', function(){
+      if(this.className.indexOf('fa-chevron-down') != -1){
+         this.classList.remove("fa-chevron-down");
+         this.classList.add("fa-chevron-up");
+      }else{
+         this.classList.remove("fa-chevron-up");
+         this.classList.add("fa-chevron-down");
+      }
+
+      var ul = this.parentNode.querySelectorAll('ul')[0];
+      ul.style.display = ul.offsetParent === null ? 'block' : 'none';
+
+   });
+});
+
+var mobileItems = document.querySelectorAll('#slide-out .st-nav-mobile .main-menu *');
+var elpai = mobileItems[0].parentNode;
+[].forEach.call(mobileItems, function(el){
+   elpai.parentNode.appendChild(el);
+
+   var tn = el.nodeName.toLowerCase();
+   if(tn == "div" && el.className.indexOf('menu-mega-latest-posts') != -1) el.outerHTML = '';
+   if(tn == "div" && el.className.indexOf('mega-cat-content-tab') != -1) el.outerHTML = '';
+   if(tn == "div" && el.className.indexOf('mega-recent-post') != -1) el.outerHTML = '';
+});
+
+elpai.outerHTML = '';
+  
+  </script>
+</body>
+</html>
